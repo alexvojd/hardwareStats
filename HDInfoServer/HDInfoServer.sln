@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDInfoServer", "HDInfoServer\HDInfoServer.csproj", "{D807965A-1587-4A47-AA72-99DA232CAE12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D807965A-1587-4A47-AA72-99DA232CAE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D807965A-1587-4A47-AA72-99DA232CAE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D807965A-1587-4A47-AA72-99DA232CAE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D807965A-1587-4A47-AA72-99DA232CAE12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DBF155B-68B2-4698-88B2-3302120D50A5}
+	EndGlobalSection
+EndGlobal

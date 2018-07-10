@@ -1,0 +1,36 @@
+﻿<Window x:Class="HDInfoServer.ServerConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NikitaServer"
+        mc:Ignorable="d"
+        Title="ServerConfig" Height="453.959" Width="550">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="228,393,0,0" VerticalAlignment="Top" Width="75" Click="Back_btn" RenderTransformOrigin="0.747,0.439"/>
+        <ComboBox HorizontalAlignment="Left" Name="rooms_cb1" Margin="130,60,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.198,0.277"/>
+        <Label Content="Добавление компьютера" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Аудитория" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <Label Content="Имя компьютера" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <TextBox Name="computerName" HorizontalAlignment="Left" Height="23" Margin="130,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="84,152,0,0" VerticalAlignment="Top" Width="75" Click="AddComp_btn"/>
+        <Label Content="Добавление аудитории" HorizontalAlignment="Left" Margin="324,10,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Название аудитории" HorizontalAlignment="Left" Margin="286,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <TextBox Name="roomName" HorizontalAlignment="Left" Height="23" Margin="424,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="363,152,0,0" VerticalAlignment="Top" Width="75" Click="AddRoom_btn"/>
+        <ComboBox Name="comps_cb" HorizontalAlignment="Left" Margin="130,247,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.198,0.277"/>
+        <Label Content="Удаление компьютера" HorizontalAlignment="Left" Margin="45,194,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Компьютер" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="84,298,0,0" VerticalAlignment="Top" Width="75" Click="DelComp_btn"/>
+        <ComboBox Name="rooms_cb2" HorizontalAlignment="Left" Margin="418,247,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.198,0.277"/>
+        <Label Content="Удаление аудитории" HorizontalAlignment="Left" Margin="342,194,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Аудитория" HorizontalAlignment="Left" Margin="298,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="363,298,0,0" VerticalAlignment="Top" Width="75" Click="DelRoom_btn"/>
+        <Label Content="Sever IP" HorizontalAlignment="Left" Margin="73,348,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+        <TextBox Name="serverIP_tb" HorizontalAlignment="Left" Height="23" Margin="130,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Button Content="Задать" HorizontalAlignment="Left" Margin="401,352,0,0" VerticalAlignment="Top" Width="75" Click="changeConn_btn" Height="23"/>
+        <TextBox Name="serverPort_tb" HorizontalAlignment="Left" Height="23" Margin="274,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Port" HorizontalAlignment="Left" Margin="237,349,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.152,-1.313"/>
+
+    </Grid>
+</Window>
